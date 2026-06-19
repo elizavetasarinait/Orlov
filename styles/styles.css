@@ -8,7 +8,7 @@ body {
    margin: 0 auto;
    width: 1400px;
    height: 765px;
-   background-image: url('/resources/background_image.jpg');
+   background-image: url("../resources/background_image.jpg");
    background-size: cover;
    background-repeat: no-repeat;
    background-position: 50% 50%;
@@ -110,7 +110,7 @@ section {
   margin: 0 auto;
   width: 1150px;
   height: 550px;
-  background-image: url('/resources/Realhome.png');
+  background-image: url("../resources/Realhome.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -182,7 +182,7 @@ section {
 }
 
 .competencies__html::before {
-  content: url('/resources/html.png');
+  content: url("../resources/html.png");
   display: block;
   margin-top: 48px;
   margin-left: 2px;
@@ -192,7 +192,7 @@ section {
 }
 
 .competencies__js::before {
-  content: url('/resources/js.png');
+  content: url("../resources/js.png");
   display: block;
   margin-top: 48px;
   margin-left: 2px;
@@ -202,7 +202,7 @@ section {
 }
 
 .competencies__framework::before {
-  content: url('/resources/framework.png');
+  content: url("../resources/framework.png");
   display: block;
   margin-top: 48px;
   margin-left: 2px;
@@ -212,7 +212,7 @@ section {
 }
 
 .competencies__moblie::before {
-  content: url('/resources/mobile.png');
+  content: url("../resources/mobile.png");
   display: block;
   margin-top: 48px;
   margin-left: 2px;
