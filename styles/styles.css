@@ -1,0 +1,338 @@
+body {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.FullScreen {
+   margin: 0 auto;
+   width: 1400px;
+   height: 765px;
+   background-image: url('/resources/background_image.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+}
+
+.FullScreen__text {
+  margin: 0 auto;
+  padding-top: 27px;
+  width: 1400px;
+  height: 765px;
+}
+
+.special {
+  margin-bottom: 29px;
+  margin-left: 125px;
+  width: 430px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -3%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.greeting {
+  margin-bottom: 94px;
+  margin-left: 119px;
+  width: 919px;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 71px;
+  letter-spacing: -3%;
+  color: rgba(27, 255, 7, 1);
+}
+
+nav {
+  display: block;
+  margin-left: 2px;
+  margin-bottom: 252px;
+}
+
+.nav__link {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -3%;
+  text-decoration: none;
+  text-transform: lowercase;
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav__link:first-child {
+  margin-right: 400px;
+  margin-left: 123px;
+  width: 130px;
+  height: 39px;
+  font-size: 42.41px;
+  font-weight: 700;
+  letter-spacing: -11%;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(27, 255, 7, 1);
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 100px;
+}
+
+.nav__link:last-child {
+  margin-right: 120px;
+}
+
+.nav__link:hover {
+  color: rgba(27, 255, 7, 1);
+}
+
+main {
+  margin: 0 auto;
+  width: 1400px;
+  background-color: black;
+}
+
+section {
+  margin: 0 auto;
+}
+
+.projects-list {
+  padding-top: 150px;
+  padding-left: 120px;
+  padding-bottom: 40px;
+  line-height: 73px;
+  font-size: 55px;
+  font-weight: 400;
+  letter-spacing: -3%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.projects {
+  position: relative;
+  margin: 0 auto;
+  width: 1150px;
+  height: 550px;
+  background-image: url('/resources/Realhome.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.project__text_wrapper {
+  position: absolute;
+  top: 410px;
+  left: 50px;
+}
+
+.project__name {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: -3%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.project__detailed {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: -3%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.view-projects {
+  margin-top: 80px;
+  margin-left: 123px;
+  text-align: center;
+}
+
+.view-project {
+  display: block;
+  background-color: rgba(27, 255, 7, 1);
+  border-radius: 10px;
+  width: 582px;
+  height: 153px;
+  line-height: 150px;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: -3%;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+.view-project:hover {
+  background-color: black;
+  color: rgba(27, 255, 7, 1);
+  border: 1px solid rgba(27, 255, 7, 1);
+}
+
+.competencies {
+  margin-top: 150px;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -3%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.competencies__name {
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: -3%;
+  line-height: 49px;
+  color: rgba(27, 255, 7, 1);
+}
+
+.competencies__html::before {
+  content: url('/resources/html.png');
+  display: block;
+  margin-top: 48px;
+  margin-left: 2px;
+  padding-bottom: 12px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.competencies__js::before {
+  content: url('/resources/js.png');
+  display: block;
+  margin-top: 48px;
+  margin-left: 2px;
+  padding-bottom: 12px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.competencies__framework::before {
+  content: url('/resources/framework.png');
+  display: block;
+  margin-top: 48px;
+  margin-left: 2px;
+  padding-bottom: 12px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.competencies__moblie::before {
+  content: url('/resources/mobile.png');
+  display: block;
+  margin-top: 48px;
+  margin-left: 2px;
+  padding-bottom: 12px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.competencies__details {
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: -3%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.task {
+  width: 403px;
+  margin-top: 150px;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: -3%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.tasks {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 74px;
+}
+
+.tasks:last-child {
+  padding-top: 137px;
+}
+
+.tasks__text_wrapper {
+  position: absolute;
+  bottom: 60px;
+  left: 40px;
+}
+
+.tasks__name {
+   height: 72px;
+   font-size: 55px;
+   font-weight: 400;
+   letter-spacing: -3%;
+   line-height: 100px;
+   color: rgba(27, 255, 7, 1);
+}
+
+.tasks__details {
+  width: 749px;
+  height: 116px;
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: -3%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.connection__block {
+  display: block;
+}
+
+.connection__image {
+  width: 915px;
+  height: 861px;
+}
+
+.connection {
+  margin-bottom: 28px;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 65px;
+
+  color: rgba(255, 255, 255, 1);
+}
+
+.connection__text_wrapper {
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.FutorBlock {
+  position: relative;
+  display: block;
+}
+
+.FutorBlock__text_wrapper {
+  position: absolute;
+  left: 125px;
+  bottom: 30px;
+}
+
+.FutorBlock__image {
+  width: 1400px;
+  height: 223px;
+  border-radius: 30px;
+}
+
+.FutorBlock__name {
+  padding-top: 76px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -3%;
+  color: rgba(0, 0, 0, 1);
+}
+
+.FutorBlock__detailes {
+  margin-top: 66px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -3%;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.5;
+}
